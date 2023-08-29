@@ -29,7 +29,7 @@ class UsbCommKel103:
             #print(a)
             if a==b'':
                 break
-            if a==b'':
+            if a==b'\n':
                 break
             line+=a
         return line.decode().strip()
